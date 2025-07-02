@@ -81,22 +81,32 @@ colcon build --symlink-install
 
 3. Add to .bashrc
 
+
 echo "source ~/turtlebot3_ws/install/setup.bash" >> ~/.bashrc
+
 echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
+
 source ~/.bashrc
 
 🚀 How to Run the Simulation + Planner
+
 Terminal 1 – Launch Gazebo Simulation
 
 source /opt/ros/humble/setup.bash
+
 source ~/turtlebot3_ws/install/setup.bash
+
 export TURTLEBOT3_MODEL=burger
+
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+
 
 Terminal 2 – Run the DWA Planner
 
 source /opt/ros/humble/setup.bash
+
 source ~/custom_dwa_ws/install/setup.bash
+
 ros2 run custom_dwa dwa_planner_node
 
 3. Set Goal in RViz
@@ -136,10 +146,10 @@ Proper README with full instructions	✅
 
     📧 karanpatelkp1002@gmail.com
 
-    📝 License: TODO (you can choose MIT, Apache 2.0, etc.)
-
-
-🔗 References
+    📝 License: Apache 2.0
+    
+    
+    🔗 References
 
     TurtleBot3 Simulation Manual: https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
 
