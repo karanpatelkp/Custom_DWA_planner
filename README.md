@@ -64,7 +64,9 @@ cd ~/turtlebot3_ws/src
 
 # Clone TurtleBot3 packages
 git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3.git
+
 git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+
 git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 
 cd ~/turtlebot3_ws
