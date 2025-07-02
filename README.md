@@ -31,15 +31,21 @@ custom_dwa_ws/
 ## 🛠️ Features
 
 - ✅ Samples velocity commands using dynamic constraints
+
 - ✅ Predicts robot trajectories using motion model
+
 - ✅ Evaluates trajectories with a multi-objective cost function:
   - Obstacle avoidance
   - Goal proximity
   - Path smoothness
   - Speed preference
+
 - ✅ Publishes best `cmd_vel` to control the robot
+
 - ✅ Visualizes trajectories and goal in RViz
+
 - ✅ Integrates with standard ROS2 topics (`/odom`, `/scan`, `/cmd_vel`, `/goal_pose`)
+
 
 ---
 
@@ -59,17 +65,23 @@ Make sure you have:
 1. Install Required Packages
 
 sudo apt update
+
 sudo apt install ros-humble-desktop \
+
     ros-humble-navigation2 \
+    
     ros-humble-nav2-bringup \
+    
     ros-humble-gazebo-ros-pkgs
 
 2. Create & Build Workspace
 
 mkdir -p ~/turtlebot3_ws/src
+
 cd ~/turtlebot3_ws/src
 
 # Clone TurtleBot3 packages
+
 git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3.git
 
 git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
@@ -77,6 +89,7 @@ git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 
 cd ~/turtlebot3_ws
+
 colcon build --symlink-install
 
 3. Add to .bashrc
@@ -131,12 +144,19 @@ ros2 run custom_dwa dwa_planner_node
 🧠 Assignment Compliance Summary
 
 Requirement	Status
+
 Custom DWA logic (not using Nav2’s DWB)	✅
+
 Cost-based trajectory evaluation	✅
+
 Integration with /odom, /scan, /cmd_vel, /goal_pose	✅
+
 RViz visualization using markers	✅
+
 Gazebo-based simulation with TurtleBot3	✅
+
 Informative logs and terminal output	✅
+
 Proper README with full instructions	✅
 
 
