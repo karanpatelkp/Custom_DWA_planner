@@ -10,12 +10,19 @@ A ROS2 Humble package that implements a **Custom Dynamic Window Approach (DWA)**
 
 custom_dwa_ws/
 ├── src/
+
 │ └── custom_dwa/
+
 │ ├── custom_dwa/
+
 │ │ ├── dwa_algorithm.py # Core DWA logic
+
 │ │ ├── dwa_planner_node.py # ROS2 Node handling subscriptions, control loop
+
 │ ├── setup.py
+
 │ ├── package.xml
+
 │ └── test/ # Linting and style check scripts
 
 
