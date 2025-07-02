@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating custom_dwa.egg-info
+writing custom_dwa.egg-info/PKG-INFO
+writing dependency_links to custom_dwa.egg-info/dependency_links.txt
+writing entry points to custom_dwa.egg-info/entry_points.txt
+writing requirements to custom_dwa.egg-info/requires.txt
+writing top-level names to custom_dwa.egg-info/top_level.txt
+writing manifest file 'custom_dwa.egg-info/SOURCES.txt'
+reading manifest file 'custom_dwa.egg-info/SOURCES.txt'
+writing manifest file 'custom_dwa.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/karan/custom_dwa_ws/install/custom_dwa/lib/python3.10/site-packages/custom-dwa.egg-link (link to .)
+Installing dwa_algorithm script to /home/karan/custom_dwa_ws/install/custom_dwa/lib/custom_dwa
+Installing dwa_planner_node script to /home/karan/custom_dwa_ws/install/custom_dwa/lib/custom_dwa
+
+Installed /home/karan/custom_dwa_ws/build/custom_dwa
+running symlink_data
+creating /home/karan/custom_dwa_ws/install/custom_dwa/share/ament_index/resource_index/packages
+symbolically linking /home/karan/custom_dwa_ws/build/custom_dwa/resource/custom_dwa -> /home/karan/custom_dwa_ws/install/custom_dwa/share/ament_index/resource_index/packages
+symbolically linking /home/karan/custom_dwa_ws/build/custom_dwa/package.xml -> /home/karan/custom_dwa_ws/install/custom_dwa/share/custom_dwa

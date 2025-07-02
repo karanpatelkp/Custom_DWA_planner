@@ -1,0 +1,3 @@
+[console_scripts]
+dwa_algorithm = custom_dwa.dwa_algorithm:main
+dwa_planner_node = custom_dwa.dwa_planner_node:main

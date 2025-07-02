@@ -1,0 +1,12 @@
+source;ros_domain_id.txt
+source;share/custom_dwa/hook/pythonpath.ps1
+source;share/custom_dwa/hook/pythonpath.dsv
+source;share/custom_dwa/hook/pythonpath.sh
+source;ros_domain_id.txt
+source;share/custom_dwa/hook/ament_prefix_path.ps1
+source;share/custom_dwa/hook/ament_prefix_path.dsv
+source;share/custom_dwa/hook/ament_prefix_path.sh
+source;ros_domain_id.txt
+source;../../build/custom_dwa/share/custom_dwa/hook/pythonpath_develop.ps1
+source;../../build/custom_dwa/share/custom_dwa/hook/pythonpath_develop.dsv
+source;../../build/custom_dwa/share/custom_dwa/hook/pythonpath_develop.sh

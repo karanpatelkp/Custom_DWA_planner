@@ -1,0 +1,25 @@
+[0.714s] Invoking command in '/home/karan/custom_dwa_ws/build/custom_dwa': PYTHONPATH=/home/karan/custom_dwa_ws/build/custom_dwa/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karan/custom_dwa_ws/install/custom_dwa/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/karan/custom_dwa_ws/build/custom_dwa/build --no-deps symlink_data
+[0.840s] /home/karan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.840s]   warnings.warn(msg)
+[1.006s] running develop
+[1.227s] running egg_info
+[1.243s] creating custom_dwa.egg-info
+[1.244s] writing custom_dwa.egg-info/PKG-INFO
+[1.244s] writing dependency_links to custom_dwa.egg-info/dependency_links.txt
+[1.244s] writing entry points to custom_dwa.egg-info/entry_points.txt
+[1.244s] writing requirements to custom_dwa.egg-info/requires.txt
+[1.244s] writing top-level names to custom_dwa.egg-info/top_level.txt
+[1.255s] writing manifest file 'custom_dwa.egg-info/SOURCES.txt'
+[1.296s] reading manifest file 'custom_dwa.egg-info/SOURCES.txt'
+[1.296s] writing manifest file 'custom_dwa.egg-info/SOURCES.txt'
+[1.313s] running build_ext
+[1.314s] Creating /home/karan/custom_dwa_ws/install/custom_dwa/lib/python3.10/site-packages/custom-dwa.egg-link (link to .)
+[1.314s] Installing dwa_algorithm script to /home/karan/custom_dwa_ws/install/custom_dwa/lib/custom_dwa
+[1.314s] Installing dwa_planner_node script to /home/karan/custom_dwa_ws/install/custom_dwa/lib/custom_dwa
+[1.315s] 
+[1.315s] Installed /home/karan/custom_dwa_ws/build/custom_dwa
+[1.315s] running symlink_data
+[1.315s] creating /home/karan/custom_dwa_ws/install/custom_dwa/share/ament_index/resource_index/packages
+[1.315s] symbolically linking /home/karan/custom_dwa_ws/build/custom_dwa/resource/custom_dwa -> /home/karan/custom_dwa_ws/install/custom_dwa/share/ament_index/resource_index/packages
+[1.315s] symbolically linking /home/karan/custom_dwa_ws/build/custom_dwa/package.xml -> /home/karan/custom_dwa_ws/install/custom_dwa/share/custom_dwa
+[1.341s] Invoked command in '/home/karan/custom_dwa_ws/build/custom_dwa' returned '0': PYTHONPATH=/home/karan/custom_dwa_ws/build/custom_dwa/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karan/custom_dwa_ws/install/custom_dwa/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/karan/custom_dwa_ws/build/custom_dwa/build --no-deps symlink_data
